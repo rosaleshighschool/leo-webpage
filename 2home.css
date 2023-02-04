@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main{
+	width:100%;
+	background:url(sunset.jpg);
+	background-position:center;
+	background-size:cover;
+	height:109vh;	
+}
+.navbar{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+.icon{
+	width:200px;
+	float:left;
+	height:70px;
+}
+.logo{
+	font-size:50px;
+	font-family:Arial;
+	padding-left:20px;
+	float:left;
+	padding-top:10px;
+	color:#FF8C00;
+}
+.menu{
+	width:400px;
+	float:left;
+	height:70px;		
+}
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+}
+ul li{
+	list-style:none;
+	margin-left:60px;
+	margin-top:27px;
+	font-size:14px;
+}
+ul li a{
+	text-decoration:none;
+	color:#FF8C00;
+	font-family:Arial;
+	font-weight:bold;
+	transition:0.1s ease-in-out;
+}
+ul li a:hover{
+	color:white;
+}
+.search{
+		width:330px;
+		float:left;
+		margin-left:270px;		
+}
+.srch{
+	font-family: Sans serif;
+	width:200px;
+	height:40px;
+	background:transparent;
+	color:white;
+	border:1px solid #FF8C00;
+	margin-top:13px;
+	border-right:none;
+	font-size:16px;
+	float:left;
+	padding:10px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.btn{
+	width:100px;
+	height:40px;
+	background:#ff7200;
+	border:2px solid #ff7200;
+	margin-top:15px;
+	color:#fff;
+	font-size:15px;
+	border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;	
+}
+.btn:focus{	
+    outline:none;	
+}
+.srch:focus{
+	outline:none;	
+}
+.content{
+	color:#FF8C00;
+}
+.loginbox {
+	position:absolute;
+	width:320px;
+	height:420px;
+	background:#000;
+	color:#fff;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+}
+.rnhslogo{
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:50%;	
+	top:-50px;
+	left:calc(50%-50px;)
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;			
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background: #fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:ffc107;
+	color:#000;
+}
+.loginbox a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:darkgrey;
+}
+.loginbox:hover
+{
+	color:ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
